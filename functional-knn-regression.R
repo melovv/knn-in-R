@@ -66,7 +66,7 @@ resp_k = sapply(1:max_k, function(k) {
           c(mae, mse, rmse)
         })
 
-# Which valuesshowed the lowest errors 
+# Which values showed the lowest errors 
 ############################################
 for (i in 1:nrow(resp_k))
   print (which.min(resp_k[i,]))
